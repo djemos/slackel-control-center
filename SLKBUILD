@@ -1,0 +1,27 @@
+#Maintainer: Dimitris Tzemos <dijemos~at~gmail~dot~com>
+
+pkgname=slackel-control-center
+pkgver=1.0
+pkgrel=1dj
+arch=noarch
+source=($pkgname.tar.xz)
+options=('noautodotnew' 'nosrcpack')
+
+slackdesc=\
+(
+#|-----handy-ruler------------------------------------------------------|
+"slackel-control-center (Slackel Control Center)"
+"This package provides a default structure /etc/skel/.qcontrolcenter,"
+"fed with categories and .desktop files to set the default Slackel"
+"Control Center, powered by the qControlCenter application, shipped in"
+"Slackel. This default structure will be copied as ~/.qcontrolcenter upon"
+"each user account creation. The user can then customize it as at will."
+)
+build() {
+	cd $startdir/src/$pkgname
+	mkdir -p $startdir/pkg/etc
+	cp -r etc/skel $startdir/pkg/etc/
+	cp -r etc/profile.d $startdir/pkg/etc/
+	chmod -R 755 $startdir/pkg/etc/profile.d
+	chown -R root:root $startdir/pkg/
+}
