@@ -1,2 +1,9 @@
 Slackel Control Center
 
+To download and create the package type:
+git clone https://github.com/djemos/slackel-control-center.git
+cd slackel-control-center
+fakeroot slkbuild -X
+
+To install the package type:
+sudo spkg slackel-control-center-1.0-noarch-1dj.txz
