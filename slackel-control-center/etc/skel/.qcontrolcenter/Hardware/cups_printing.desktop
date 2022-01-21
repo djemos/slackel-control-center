@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Cups Print Control
+Type=Application
+Comment=Setup and maintanance for printers
+Terminal=false
+Exec=/usr/bin/xdg-open http://localhost:631/
+Icon=cups
+Categories=System;
+GenericName=Cups Print Control

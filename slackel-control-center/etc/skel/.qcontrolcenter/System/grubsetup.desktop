@@ -1,0 +1,15 @@
+[Desktop Entry]
+Exec=gksu "lxterminal -e /sbin/grubconfig && sleep 2"
+Icon=grubsetup
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Application;System;
+Encoding=UTF-8
+NoDisplay=false
+NotShowIn=KDE
+Name= Grub Install and Setup Utility
+Name[el]=Εργαλείο Εγκατάστασης και Ρύθμισης του Grub
+GenericName= Grub Install and Set Up Utility
+GenericName[el]=Εργαλείο Εγκατάστασης και Ρύθμισης του Grub
+Comment=Install and Set up Grub

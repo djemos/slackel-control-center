@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Printer Setup
+Type=Application
+Comment=Setup printers
+Terminal=true
+Exec=system-config-printer
+Icon=printer
+Categories=System;
+GenericName=Printer Setup

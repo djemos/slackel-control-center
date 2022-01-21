@@ -1,0 +1,16 @@
+[Desktop Entry]
+Exec=kdesu konsole -e /bin/sh -c /usr/sbin/update-grub && sleep 2
+Icon=grub-update
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Application;System;
+Encoding=UTF-8
+NoDisplay=false
+OnlyShowIn=KDE
+Name=Grub Update Utility
+Name[el]=Εργαλείο ενημέρωσης του Grub
+GenericName= Grub Update Utility
+GenericName[el]=Εργαλείο ενημέρωσης του Grub
+Comment=Grub Update Utility
+

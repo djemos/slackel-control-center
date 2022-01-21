@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Slackel Website
+Type=Application
+Comment=Slackel Website
+Terminal=false
+Exec=http://www.slackel.gr
+Icon=internet-web-browser
+Categories=System;
+GenericName=Slackel Website
