@@ -6,4 +6,4 @@ cd slackel-control-center
 fakeroot slkbuild -X
 
 To install the package type:
-sudo spkg slackel-control-center-1.0-noarch-1dj.txz
+sudo spkg slackel-control-center-2.0-noarch-1dj.txz
